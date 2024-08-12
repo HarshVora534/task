@@ -1,0 +1,117 @@
+nav{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    padding-right: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li a:active{
+    text-decoration: underline;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.Product{
+    background-color: tomato;
+    padding-top: 8vh;
+    text-align: center;    
+}
+.products{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 2vh;
+    padding-bottom: 10vh;
+}
+.productList{
+    padding: 5px 0px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    flex: 1 1 300px;
+}
+.productList button{
+    /* color: tomato; */
+    width: 20vh;
+    height: 5vh;
+    font-size: large;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.Cart{
+    background-color: tomato;
+    padding-top: 9vh;
+    text-align: center;
+}
+.cartDetails{
+    text-align: center;
+    list-style: none;
+}
+.cartList{
+    font-size: larger;
+    font-weight: 500;
+    padding: 1%;
+}
+.dash{
+    text-align: center;
+}
+.total{
+    text-align: center;
+}
+.categories{
+    text-align: center;
+    background-color: tomato;
+}
+.categoryDetails{
+    list-style: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15vh;
+}
+.slider {
+    padding-top: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divImage {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.prev, .next {
+    background-color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.image {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
